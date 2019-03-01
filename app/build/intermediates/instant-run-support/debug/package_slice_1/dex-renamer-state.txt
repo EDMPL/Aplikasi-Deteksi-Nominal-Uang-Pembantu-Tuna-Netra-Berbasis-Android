@@ -1,0 +1,4 @@
+#Sat Feb 16 13:31:13 ICT 2019
+base.0=D\:\\ffxiii2\\tensorflow-master\\tensorflow-master\\tensorflow\\lite\\examples\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

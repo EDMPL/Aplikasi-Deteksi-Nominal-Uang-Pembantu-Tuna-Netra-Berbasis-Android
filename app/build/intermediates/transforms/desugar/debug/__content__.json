@@ -1,0 +1,1 @@
+[{"name":"0ca9096d38695291526f35386856cb4b72157f64","index":0,"scopes":["PROJECT"],"types":["CLASSES"],"format":"DIRECTORY","present":true},{"name":"org.tensorflow:tensorflow-lite:0.0.0-nightly","index":1,"scopes":["EXTERNAL_LIBRARIES"],"types":["CLASSES"],"format":"JAR","present":true}]
