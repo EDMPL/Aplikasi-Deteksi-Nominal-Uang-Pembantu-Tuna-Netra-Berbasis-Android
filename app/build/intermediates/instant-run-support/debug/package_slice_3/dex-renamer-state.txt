@@ -1,4 +1,4 @@
-#Sat Feb 16 13:16:01 ICT 2019
-base.0=D\:\\ffxiii2\\tensorflow-master\\tensorflow-master\\tensorflow\\lite\\examples\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
-path.0=classes.dex
+#Sat Jun 01 08:34:39 ICT 2019
+base.0=D\:\\ffxiii2\\tensorflow-for-poets-2-master\\tensorflow-for-poets-2-master\\android\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
 renamed.0=classes.dex
+file.0=D\:\\ffxiii2\\tensorflow-for-poets-2-master\\tensorflow-for-poets-2-master\\android\\tflite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4\\classes.dex

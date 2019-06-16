@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- Copyright 2016 The TensorFlow Authors. All Rights Reserved.
+ Copyright 2013 The Android Open Source Project
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -16,8 +16,15 @@
 -->
 
 <resources>
-    <string name="app_name">TFLite Demo</string>
-    <string name="activity_name_classification">TFL Classify</string>
-    <string name="activity_name_detection">TFL Detect</string>
-    <string name="activity_name_speech">TFL Speech</string>
+    <string name="app_name">TfLiteCameraDemo</string>
+    <string name="intro_message">
+        <![CDATA[
+        
+            
+            This sample demonstrates the basic use of TfLite API. Check the source code to see how
+            you can use TfLite for efficient, on-device inference with trained TensorFlow models.
+            
+        
+        ]]>
+    </string>
 </resources>
