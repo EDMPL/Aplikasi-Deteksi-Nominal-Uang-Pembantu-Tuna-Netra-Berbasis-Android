@@ -1,4 +1,0 @@
-#Thu Jul 11 06:30:55 WIB 2019
-base.0=/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/transforms/dexMerger/debug/0
-renamed.0=classes.dex
-file.0=/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
