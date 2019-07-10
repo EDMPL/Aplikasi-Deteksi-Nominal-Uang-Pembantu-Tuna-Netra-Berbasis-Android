@@ -16,7 +16,7 @@
 -->
 
 <resources>
-    <string name="app_name">TfLiteCameraDemo</string>
+    <string name="app_name">Deteksi Uang Rupiah</string>
     <string name="intro_message">
         <![CDATA[
         
