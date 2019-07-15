@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-40:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-40:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-40:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-40:12
+ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-41:12
+INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-41:12
+INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-41:12
+INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-41:12
 MERGED from [com.android.support:design:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/163876915b43d14d97661666a1074131/AndroidManifest.xml:2:1-11:12
@@ -19,20 +19,20 @@ MERGED from [com.android.support:support-core-utils:25.2.0] /home/jereigs/.gradl
 MERGED from [com.android.support:support-core-ui:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9a471cee1498cf8001598036588affba/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/c7d415df50aec50e763bccd1e25fefaa/AndroidManifest.xml:17:1-27:12
 MERGED from [org.tensorflow:tensorflow-lite:1.14.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.14.0.aar/e0a80ebef2d8487d4b56d537a7afd991/AndroidManifest.xml:2:1-10:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-40:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-40:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-40:12
+INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-41:12
+INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-41:12
+INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-41:12
 	package
 		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:19:5-51
 		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-40:12
+		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-41:12
 		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-40:12
+		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-41:12
 		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:11-69
@@ -49,7 +49,7 @@ ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berba
 	android:name
 		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:24:19-67
 application
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:26:5-38:19
+ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:26:5-39:19
 MERGED from [com.android.support:design:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:design:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/AndroidManifest.xml:25:5-20
@@ -86,7 +86,7 @@ MERGED from [org.tensorflow:tensorflow-lite:1.14.0] /home/jereigs/.gradle/caches
 		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:26:18-44
 	android:theme
 		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:29:9-45
-activity#com.example.android.tflitecamerademo.CameraActivity
+activity#com.example.android.tflitecamerademo.SplashActivity
 ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:31:9-37:20
 	android:label
 		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:32:19-51
@@ -102,6 +102,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:35:17-77
 	android:name
 		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:35:27-74
+activity#com.example.android.tflitecamerademo.CameraActivity
+ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:38:9-61
+	android:name
+		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:38:19-49
 uses-sdk
 INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
