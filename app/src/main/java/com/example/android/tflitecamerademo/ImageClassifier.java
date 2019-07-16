@@ -227,6 +227,28 @@ public class ImageClassifier {
     //CameraActivity.tts.speak(textToSpeak, TextToSpeech.QUEUE_FLUSH, null);
     return textToShow;
   }
+  
+  boolean isDetected() {
+    for (int i = 0; i < labelList.size(); ++i) {
+      sortedLabels.add(
+              new AbstractMap.SimpleEntry<>(labelList.get(i), labelProbArray[0][i]));
+      if (sortedLabels.size() > RESULTS_TO_SHOW) {
+        sortedLabels.poll();
+      }
+    }
+    float value = 0;
+    final int size = sortedLabels.size();
+    for (int i = 0; i < size; ++i) {
+      Map.Entry<String, Float> label = sortedLabels.poll();
+      value = label.getValue();
+    }
+    //Check akurasi
+    if(value > 0.5) {
+      return true;
+    }else {
+      return false;
+    }
+  }
 
   String getTextToSpeak() {
     return printTopKLabels().split("\\:")[0];

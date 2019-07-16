@@ -670,10 +670,15 @@ public class Camera2BasicFragment extends Fragment
         textureView.getBitmap(ImageClassifier.DIM_IMG_SIZE_X, ImageClassifier.DIM_IMG_SIZE_Y);
     String textToShow = classifier.classifyFrame(bitmap);
     String textToSpeak = classifier.getTextToSpeak();
+    boolean isDetected = classifier.isDetected();
     bitmap.recycle();
     showToast(textToShow);
     if(counter) {
-      CameraActivity.tts.speak(textToSpeak, TextToSpeech.QUEUE_FLUSH, null);
+      if(isDetected) {
+        CameraActivity.tts.speak(textToSpeak, TextToSpeech.QUEUE_FLUSH, null);
+      }else {
+        CameraActivity.tts.speak("Not detected", TextToSpeech.QUEUE_FLUSH, null);
+      }
     }
   }
 
