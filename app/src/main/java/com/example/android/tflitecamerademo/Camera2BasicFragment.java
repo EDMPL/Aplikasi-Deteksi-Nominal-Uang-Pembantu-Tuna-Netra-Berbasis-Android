@@ -31,6 +31,7 @@ import android.graphics.Matrix;
 import android.graphics.Point;
 import android.graphics.RectF;
 import android.graphics.SurfaceTexture;
+import android.hardware.Camera.Parameters;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCaptureSession;
 import android.hardware.camera2.CameraCharacteristics;
@@ -58,6 +59,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.io.IOException;
+import java.security.Policy;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -82,8 +84,10 @@ public class Camera2BasicFragment extends Fragment
   private final Object lock = new Object();
   private boolean runClassifier = false;
   private boolean checkedPermissions = false;
+  private boolean deviceFlashlight = false;
   private TextView textView;
   private ImageClassifier classifier;
+  private Parameters parameter ;
 
   /** Max preview width that is guaranteed by Camera2 API */
   private static final int MAX_PREVIEW_WIDTH = 1920;
@@ -142,6 +146,7 @@ public class Camera2BasicFragment extends Fragment
           cameraOpenCloseLock.release();
           cameraDevice = currentCameraDevice;
           createCameraPreviewSession();
+
         }
 
         @Override
@@ -692,6 +697,7 @@ public class Camera2BasicFragment extends Fragment
           (long) lhs.getWidth() * lhs.getHeight() - (long) rhs.getWidth() * rhs.getHeight());
     }
   }
+
 
   /** Shows an error message dialog. */
   public static class ErrorDialog extends DialogFragment {

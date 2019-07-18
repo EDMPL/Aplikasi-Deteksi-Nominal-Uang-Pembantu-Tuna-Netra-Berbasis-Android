@@ -840,6 +840,10 @@
         "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/layout/activity_camera.xml"
     },
     {
+        "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/raw_limaribu.wav.flat",
+        "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/raw/limaribu.wav"
+    },
+    {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
@@ -924,6 +928,10 @@
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/raw_seratusribu.wav.flat",
+        "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/raw/seratusribu.wav"
+    },
+    {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/res/layout/abc_expanded_menu_layout.xml"
     },
@@ -984,6 +992,10 @@
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/raw_limapuluhribu.wav.flat",
+        "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/raw/limapuluhribu.wav"
+    },
+    {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
@@ -1034,6 +1046,10 @@
     {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/raw_seribu.wav.flat",
+        "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/raw/seribu.wav"
     },
     {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -1244,6 +1260,10 @@
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/raw_duapuluhribu.wav.flat",
+        "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/raw/duapuluhribu.wav"
+    },
+    {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -1252,12 +1272,12 @@
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.jpg.flat",
-        "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/drawable-xhdpi/ic_launcher.jpg"
-    },
-    {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.jpg.flat",
+        "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/drawable-xhdpi/ic_launcher.jpg"
     },
     {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1338,6 +1358,10 @@
     {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/raw_duaribu.wav.flat",
+        "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/raw/duaribu.wav"
     },
     {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -1766,6 +1790,10 @@
     {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/res/drawable-xxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/raw_sepuluhribu.wav.flat",
+        "source": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/res/raw/sepuluhribu.wav"
     },
     {
         "merged": "/home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
