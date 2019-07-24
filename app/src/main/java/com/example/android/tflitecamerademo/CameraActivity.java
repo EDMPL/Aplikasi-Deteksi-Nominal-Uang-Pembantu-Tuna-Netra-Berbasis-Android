@@ -16,11 +16,14 @@ limitations under the License.
 package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.media.AudioAttributes;
 import android.media.SoundPool;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
+import android.view.View;
+import android.widget.Button;
 
 import java.util.Locale;
 
@@ -34,6 +37,7 @@ public class CameraActivity extends Activity {
   static boolean flashAvailable;
   boolean hasCameraFlash = false;
   //-----
+  private Button button;
   
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -76,5 +80,16 @@ public class CameraActivity extends Activity {
           .replace(R.id.container, Camera2BasicFragment.newInstance())
           .commit();
     }
+    button = (Button) findViewById(R.id.buttonhowto);
+    button.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            openHowToUsePage();
+        }
+    });
+  }
+  public void openHowToUsePage(){
+      Intent intent = new Intent(CameraActivity.this, HowToUse.class);
+      startActivity(intent);
   }
 }

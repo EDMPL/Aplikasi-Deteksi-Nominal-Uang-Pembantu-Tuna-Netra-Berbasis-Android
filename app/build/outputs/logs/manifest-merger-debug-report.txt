@@ -1,169 +1,173 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-47:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-47:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-47:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-47:12
-MERGED from [com.android.support:design:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/163876915b43d14d97661666a1074131/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v13:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/013908e9e2d4389dc3021d1a0cc59ff0/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/b384582cfcfdd4fcf30253cfa9ca50f3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/a10d11f0bc94ddc84a716fcce3fde753/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/ffbaa792406b7ecca23f4d867ba5da75/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8e18cdbd38ad498f23729db3dd1827cc/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7e8b7bee686664af05dbd4a1e1055401/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-fragment:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/26c674707ae4f8b4dea9098fcc14854e/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/c09833f4b462ea6d6969ee076c5b05b2/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6b6cea4aaec77b7fb7e4cf128cd459f0/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9a471cee1498cf8001598036588affba/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/c7d415df50aec50e763bccd1e25fefaa/AndroidManifest.xml:17:1-27:12
-MERGED from [org.tensorflow:tensorflow-lite:1.14.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.14.0.aar/e0a80ebef2d8487d4b56d537a7afd991/AndroidManifest.xml:2:1-10:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-47:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-47:12
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-47:12
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:1-48:12
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:1-48:12
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:1-48:12
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:1-48:12
+MERGED from [com.android.support:design:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\aa3d549bf9a3bffc9b9c7c165a66421b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\976e56b4cf075b0383c26f3e65bea808\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1534ca7b8477d5e729d5d496a9bf274a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v13:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\3dc220f756e1b4b609ffebdeee4a776d\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\d5cbece65159623f7864deb4473d0579\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\701242199d3a9730d3b1faa177cf0fd6\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\38b37d8f7dbe647f5832c51ba305781e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\4af476e6e8a48698ad095d752cae8698\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\3f50b8e25086c22d58b346bf5966152c\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\7beee4b70b4f51d0099f5a60700cee3b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\d942677d9868e24d9557f48b0248391d\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\5dfc5d66bb90c9a7c227728e120b91d2\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\88f580fd88b34e9be8b167d9e1679ab6\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\32aa149144ba71265eb18a5b47c3e2a4\AndroidManifest.xml:17:1-27:12
+MERGED from [org.tensorflow:tensorflow-lite:1.14.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-1.14.0.aar\d047fc3f95b1c4342f49f30ae5976abc\AndroidManifest.xml:2:1-10:12
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:1-48:12
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:1-48:12
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:1-48:12
 	package
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:19:5-51
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:17:5-51
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-47:12
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:1-48:12
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:1-47:12
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:1-48:12
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:18:11-69
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:16:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:21:5-65
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:19:5-65
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:21:22-62
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:19:22-62
 uses-feature#android.hardware.camera
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:23:5-60
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:21:5-60
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:23:19-57
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:21:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:24:5-70
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:22:5-70
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:24:19-67
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:22:19-67
 uses-permission#android.permission.VIBRATE
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:25:5-65
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:24:5-66
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:25:22-63
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:24:22-63
 uses-permission#android.permission.FLASHLIGHT
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:26:5-68
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:25:5-69
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:26:22-66
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:25:22-66
 uses-feature#android.hardware.camera.flash
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:27:5-66
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:27:5-66
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:27:19-63
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:27:19-63
 application
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:30:5-45:19
-MERGED from [com.android.support:design:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:design:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/163876915b43d14d97661666a1074131/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/163876915b43d14d97661666a1074131/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v13:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/013908e9e2d4389dc3021d1a0cc59ff0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v13:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/013908e9e2d4389dc3021d1a0cc59ff0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/b384582cfcfdd4fcf30253cfa9ca50f3/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/b384582cfcfdd4fcf30253cfa9ca50f3/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/a10d11f0bc94ddc84a716fcce3fde753/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/a10d11f0bc94ddc84a716fcce3fde753/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8e18cdbd38ad498f23729db3dd1827cc/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:transition:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8e18cdbd38ad498f23729db3dd1827cc/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7e8b7bee686664af05dbd4a1e1055401/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7e8b7bee686664af05dbd4a1e1055401/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/26c674707ae4f8b4dea9098fcc14854e/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/26c674707ae4f8b4dea9098fcc14854e/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/c09833f4b462ea6d6969ee076c5b05b2/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/c09833f4b462ea6d6969ee076c5b05b2/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6b6cea4aaec77b7fb7e4cf128cd459f0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6b6cea4aaec77b7fb7e4cf128cd459f0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9a471cee1498cf8001598036588affba/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9a471cee1498cf8001598036588affba/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/c7d415df50aec50e763bccd1e25fefaa/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/c7d415df50aec50e763bccd1e25fefaa/AndroidManifest.xml:25:5-20
-MERGED from [org.tensorflow:tensorflow-lite:1.14.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.14.0.aar/e0a80ebef2d8487d4b56d537a7afd991/AndroidManifest.xml:8:5-20
-MERGED from [org.tensorflow:tensorflow-lite:1.14.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.14.0.aar/e0a80ebef2d8487d4b56d537a7afd991/AndroidManifest.xml:8:5-20
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:29:5-46:19
+MERGED from [com.android.support:design:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\aa3d549bf9a3bffc9b9c7c165a66421b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\aa3d549bf9a3bffc9b9c7c165a66421b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\976e56b4cf075b0383c26f3e65bea808\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\976e56b4cf075b0383c26f3e65bea808\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1534ca7b8477d5e729d5d496a9bf274a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1534ca7b8477d5e729d5d496a9bf274a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v13:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\3dc220f756e1b4b609ffebdeee4a776d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v13:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\3dc220f756e1b4b609ffebdeee4a776d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\d5cbece65159623f7864deb4473d0579\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\d5cbece65159623f7864deb4473d0579\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\701242199d3a9730d3b1faa177cf0fd6\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\701242199d3a9730d3b1faa177cf0fd6\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\4af476e6e8a48698ad095d752cae8698\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\4af476e6e8a48698ad095d752cae8698\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\3f50b8e25086c22d58b346bf5966152c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\3f50b8e25086c22d58b346bf5966152c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\7beee4b70b4f51d0099f5a60700cee3b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\7beee4b70b4f51d0099f5a60700cee3b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\d942677d9868e24d9557f48b0248391d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\d942677d9868e24d9557f48b0248391d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\5dfc5d66bb90c9a7c227728e120b91d2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\5dfc5d66bb90c9a7c227728e120b91d2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\88f580fd88b34e9be8b167d9e1679ab6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\88f580fd88b34e9be8b167d9e1679ab6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\32aa149144ba71265eb18a5b47c3e2a4\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\32aa149144ba71265eb18a5b47c3e2a4\AndroidManifest.xml:25:5-20
+MERGED from [org.tensorflow:tensorflow-lite:1.14.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-1.14.0.aar\d047fc3f95b1c4342f49f30ae5976abc\AndroidManifest.xml:8:5-20
+MERGED from [org.tensorflow:tensorflow-lite:1.14.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-1.14.0.aar\d047fc3f95b1c4342f49f30ae5976abc\AndroidManifest.xml:8:5-20
 	android:screenOrientation
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:34:9-45
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:33:9-45
 	android:label
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:31:9-41
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:32:9-41
 	android:icon
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:32:9-45
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:31:9-45
 	android:allowBackup
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:30:18-44
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:30:9-35
 	android:theme
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:33:9-45
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:34:9-45
 activity#com.example.android.tflitecamerademo.SplashActivity
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:37:9-43:20
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:label
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:38:19-51
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:37:13-45
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:37:19-85
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:36:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:39:13-42:29
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:40:17-69
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:40:25-66
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:41:17-77
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:41:27-74
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:41:27-74
 activity#com.example.android.tflitecamerademo.CameraActivity
-ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:44:9-61
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:44:9-52
 	android:name
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml:44:19-49
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:44:19-49
+activity#android.example.com.tflitecamerademo.z
+ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:45:9-84
+	android:name
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml:45:19-72
 uses-sdk
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/2babf60cf3ce9e739fd5ba4fe7a7c1d8/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/163876915b43d14d97661666a1074131/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/163876915b43d14d97661666a1074131/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v13:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/013908e9e2d4389dc3021d1a0cc59ff0/AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:support-v13:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/013908e9e2d4389dc3021d1a0cc59ff0/AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/b384582cfcfdd4fcf30253cfa9ca50f3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/b384582cfcfdd4fcf30253cfa9ca50f3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/a10d11f0bc94ddc84a716fcce3fde753/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/a10d11f0bc94ddc84a716fcce3fde753/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/ffbaa792406b7ecca23f4d867ba5da75/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/ffbaa792406b7ecca23f4d867ba5da75/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8e18cdbd38ad498f23729db3dd1827cc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8e18cdbd38ad498f23729db3dd1827cc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7e8b7bee686664af05dbd4a1e1055401/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7e8b7bee686664af05dbd4a1e1055401/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/26c674707ae4f8b4dea9098fcc14854e/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/26c674707ae4f8b4dea9098fcc14854e/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/c09833f4b462ea6d6969ee076c5b05b2/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/c09833f4b462ea6d6969ee076c5b05b2/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6b6cea4aaec77b7fb7e4cf128cd459f0/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/6b6cea4aaec77b7fb7e4cf128cd459f0/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9a471cee1498cf8001598036588affba/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9a471cee1498cf8001598036588affba/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/c7d415df50aec50e763bccd1e25fefaa/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/c7d415df50aec50e763bccd1e25fefaa/AndroidManifest.xml:21:5-23:58
-MERGED from [org.tensorflow:tensorflow-lite:1.14.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.14.0.aar/e0a80ebef2d8487d4b56d537a7afd991/AndroidManifest.xml:5:5-6:41
-MERGED from [org.tensorflow:tensorflow-lite:1.14.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.14.0.aar/e0a80ebef2d8487d4b56d537a7afd991/AndroidManifest.xml:5:5-6:41
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\aa3d549bf9a3bffc9b9c7c165a66421b\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\aa3d549bf9a3bffc9b9c7c165a66421b\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\976e56b4cf075b0383c26f3e65bea808\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\976e56b4cf075b0383c26f3e65bea808\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1534ca7b8477d5e729d5d496a9bf274a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1534ca7b8477d5e729d5d496a9bf274a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\3dc220f756e1b4b609ffebdeee4a776d\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v13-25.2.0.aar\3dc220f756e1b4b609ffebdeee4a776d\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\d5cbece65159623f7864deb4473d0579\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\d5cbece65159623f7864deb4473d0579\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\701242199d3a9730d3b1faa177cf0fd6\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\701242199d3a9730d3b1faa177cf0fd6\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\38b37d8f7dbe647f5832c51ba305781e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.2.0.aar\38b37d8f7dbe647f5832c51ba305781e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\4af476e6e8a48698ad095d752cae8698\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\transition-25.2.0.aar\4af476e6e8a48698ad095d752cae8698\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\3f50b8e25086c22d58b346bf5966152c\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\3f50b8e25086c22d58b346bf5966152c\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\7beee4b70b4f51d0099f5a60700cee3b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\7beee4b70b4f51d0099f5a60700cee3b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\d942677d9868e24d9557f48b0248391d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\d942677d9868e24d9557f48b0248391d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\5dfc5d66bb90c9a7c227728e120b91d2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\5dfc5d66bb90c9a7c227728e120b91d2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\88f580fd88b34e9be8b167d9e1679ab6\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\88f580fd88b34e9be8b167d9e1679ab6\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\32aa149144ba71265eb18a5b47c3e2a4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\32aa149144ba71265eb18a5b47c3e2a4\AndroidManifest.xml:21:5-23:58
+MERGED from [org.tensorflow:tensorflow-lite:1.14.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-1.14.0.aar\d047fc3f95b1c4342f49f30ae5976abc\AndroidManifest.xml:5:5-6:41
+MERGED from [org.tensorflow:tensorflow-lite:1.14.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-1.14.0.aar\d047fc3f95b1c4342f49f30ae5976abc\AndroidManifest.xml:5:5-6:41
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] /home/jereigs/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/4c28a4155457f52cc7c449608b87a992/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] C:\Users\LinaMarlina\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\aa3d549bf9a3bffc9b9c7c165a66421b\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		ADDED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		MERGED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jereigs/Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+		ADDED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+		MERGED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Agit\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\app\src\main\AndroidManifest.xml

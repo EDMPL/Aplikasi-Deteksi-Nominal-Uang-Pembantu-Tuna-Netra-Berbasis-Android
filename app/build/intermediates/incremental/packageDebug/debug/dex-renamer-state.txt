@@ -1,0 +1,4 @@
+#Thu Jul 25 00:41:54 ICT 2019
+base.0=C\:\\Agit\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Agit\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android-original\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
