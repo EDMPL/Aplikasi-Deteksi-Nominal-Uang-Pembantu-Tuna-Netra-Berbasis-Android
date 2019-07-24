@@ -17,6 +17,8 @@ package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
 import android.content.pm.PackageManager;
+import android.media.AudioAttributes;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 
@@ -26,6 +28,8 @@ import java.util.Locale;
 public class CameraActivity extends Activity {
 
   static TextToSpeech tts;
+  static SoundPool soundPool;
+  static int sound1, sound2, sound3, sound4, sound5, sound6, sound7;
   //cek flashlight
   static boolean flashAvailable;
   boolean hasCameraFlash = false;
@@ -46,6 +50,25 @@ public class CameraActivity extends Activity {
         tts.setLanguage(Locale.ENGLISH);
       }
     });
+	
+	AudioAttributes audioAttributes = new AudioAttributes.Builder()
+            .setUsage(AudioAttributes.USAGE_ASSISTANCE_SONIFICATION)
+            .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+            .build();
+
+    soundPool = new SoundPool.Builder()
+            .setMaxStreams(7)
+            .setAudioAttributes(audioAttributes)
+            .build();
+
+    sound1 = soundPool.load(getApplicationContext(), R.raw.seribu, 1);
+    sound2 = soundPool.load(getApplicationContext(), R.raw.duaribu, 1);
+    sound3 = soundPool.load(getApplicationContext(), R.raw.limaribu, 1);
+    sound4 = soundPool.load(getApplicationContext(), R.raw.sepuluhribu, 1);
+    sound5 = soundPool.load(getApplicationContext(), R.raw.duapuluhribu, 1);
+    sound6 = soundPool.load(getApplicationContext(), R.raw.limapuluhribu, 1);
+    sound7 = soundPool.load(getApplicationContext(), R.raw.seratusribu, 1);
+	
     setContentView(R.layout.activity_camera);
     if (null == savedInstanceState) {
       getFragmentManager()

@@ -88,6 +88,7 @@ public class Camera2BasicFragment extends Fragment
   private TextView textView;
   private ImageClassifier classifier;
   private Parameters parameter ;
+  private int timeDelay;
 
   /** Max preview width that is guaranteed by Camera2 API */
   private static final int MAX_PREVIEW_WIDTH = 1920;
@@ -580,7 +581,7 @@ public class Camera2BasicFragment extends Fragment
               }
             }
           }
-          backgroundHandler.postDelayed(periodicClassify, 5000);
+          backgroundHandler.postDelayed(periodicClassify, timeDelay);
         }
       };
 
@@ -689,9 +690,26 @@ public class Camera2BasicFragment extends Fragment
     showToast(textToShow);
     if(counter) {
       if(isDetected) {
-        CameraActivity.tts.speak(textToSpeak, TextToSpeech.QUEUE_FLUSH, null);
+        //CameraActivity.tts.speak(textToSpeak, TextToSpeech.QUEUE_FLUSH, null);
+        if(textToSpeak.contains("1 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound1, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("2 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound2, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("5 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound3, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("10 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound4, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("20 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound5, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("50 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound6, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("100 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound7, 1, 1, 0, 0, 1);
+        }
+        timeDelay = 5000;
       }else {
         CameraActivity.tts.speak("Not detected", TextToSpeech.QUEUE_FLUSH, null);
+		timeDelay = 2000;
       }
     }
   }
