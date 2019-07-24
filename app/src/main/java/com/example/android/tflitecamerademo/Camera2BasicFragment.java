@@ -484,6 +484,15 @@ public class Camera2BasicFragment extends Fragment
         throw new RuntimeException("Time out waiting to lock camera opening.");
       }
       manager.openCamera(cameraId, stateCallback, backgroundHandler);
+	  
+	  //Menyalakan flash
+      if(CameraActivity.flashAvailable) {
+        manager.setTorchMode(cameraId, true);
+      }else {
+        //System.out.println("flashlight not functioning");
+        Toast.makeText(getContext(),"Flashlight not available",Toast.LENGTH_LONG).show();
+      }
+	  
     } catch (CameraAccessException e) {
       e.printStackTrace();
     } catch (InterruptedException e) {

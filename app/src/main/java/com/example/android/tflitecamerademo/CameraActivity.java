@@ -16,6 +16,7 @@ limitations under the License.
 package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 
@@ -25,9 +26,20 @@ import java.util.Locale;
 public class CameraActivity extends Activity {
 
   static TextToSpeech tts;
+  //cek flashlight
+  static boolean flashAvailable;
+  boolean hasCameraFlash = false;
+  //-----
+  
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+	//jika flashlight ada
+    hasCameraFlash = getApplicationContext().getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
+    if(hasCameraFlash) {
+      flashAvailable = true;
+    }
+    //-----
     tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
       @Override
       public void onInit(int i) {
