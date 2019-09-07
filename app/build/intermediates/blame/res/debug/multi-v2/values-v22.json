@@ -15,22 +15,6 @@
                     }
                 }
             ]
-        },
-        {
-            "outputFile": "D:\\home\\jereigs\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
-            "map": [
-                {
-                    "source": "D:\\home\\jereigs\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\2babf60cf3ce9e739fd5ba4fe7a7c1d8\\res\\values-v22\\values-v22.xml",
-                    "from": {
-                        "startLines": "2,3,4,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,553",
-                        "endLines": "2,3,8,13",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,548,896"
-                    }
-                }
-            ]
         }
     ]
 }

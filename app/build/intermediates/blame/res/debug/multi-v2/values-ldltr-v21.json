@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\home\\jereigs\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
-            "map": [
-                {
-                    "source": "D:\\home\\jereigs\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\2babf60cf3ce9e739fd5ba4fe7a7c1d8\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "112",
-                        "endOffsets": "163"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {

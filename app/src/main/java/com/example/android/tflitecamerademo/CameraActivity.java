@@ -24,6 +24,7 @@ import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.Locale;
 
@@ -47,6 +48,7 @@ public class CameraActivity extends Activity {
     hasCameraFlash = getApplicationContext().getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
     if(hasCameraFlash) {
       flashAvailable = true;
+      Toast.makeText(this,"Flashlight available!",Toast.LENGTH_LONG).show();
     }
     //-----
     tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -81,15 +83,9 @@ public class CameraActivity extends Activity {
           .replace(R.id.container, Camera2BasicFragment.newInstance())
           .commit();
     }
-    button = (Button) findViewById(R.id.buttonhowto);
-    button.setOnClickListener(new View.OnClickListener() {
-      @Override
-      public void onClick(View view) {
-        openHowToUsePage();
-      }
-    });
   }
-  public void openHowToUsePage(){
+
+  public void openHowToUsePage(View view){
     Intent intent = new Intent(CameraActivity.this, HowToUse.class);
     startActivity(intent);
   }

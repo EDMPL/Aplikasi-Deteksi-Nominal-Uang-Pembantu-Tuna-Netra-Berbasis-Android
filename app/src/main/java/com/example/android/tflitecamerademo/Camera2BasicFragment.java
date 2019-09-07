@@ -492,6 +492,7 @@ public class Camera2BasicFragment extends Fragment
     }
     setUpCameraOutputs(width, height);
     configureTransform(width, height);
+    //turnOnFlash();
     Activity activity = getActivity();
     CameraManager manager = (CameraManager) activity.getSystemService(Context.CAMERA_SERVICE);
     try {
@@ -499,14 +500,6 @@ public class Camera2BasicFragment extends Fragment
         throw new RuntimeException("Time out waiting to lock camera opening.");
       }
       manager.openCamera(cameraId, stateCallback, backgroundHandler);
-
-      //Menyalakan flash
-      if(CameraActivity.flashAvailable) {
-        manager.setTorchMode(cameraId, true);
-      }else {
-        //System.out.println("flashlight not functioning");
-        Toast.makeText(getContext(),"Flashlight not available",Toast.LENGTH_LONG).show();
-      }
 
     } catch (CameraAccessException e) {
       e.printStackTrace();
@@ -640,8 +633,15 @@ public class Camera2BasicFragment extends Fragment
               try {
                 // Auto focus should be continuous for camera preview.
                 previewRequestBuilder.set(
-                    CaptureRequest.CONTROL_AF_MODE,
-                    CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE);
+                        CaptureRequest.CONTROL_AF_MODE,
+                        CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE);
+
+                // Flash mode
+                previewRequestBuilder.set(
+                    CaptureRequest.FLASH_MODE,
+                    CaptureRequest.FLASH_MODE_TORCH);
+
+
 
                 // Finally, we start displaying the camera preview.
                 previewRequest = previewRequestBuilder.build();
