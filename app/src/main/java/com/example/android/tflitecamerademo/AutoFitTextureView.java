@@ -27,14 +27,17 @@ public class AutoFitTextureView extends TextureView {
 
   public AutoFitTextureView(Context context) {
     this(context, null);
+    System.out.println("AutoFitTextureView FUNGSI : AutoFitTextureView()");
   }
 
   public AutoFitTextureView(Context context, AttributeSet attrs) {
     this(context, attrs, 0);
+    System.out.println("AutoFitTextureView FUNGSI : AutoFitTextureView()");
   }
 
   public AutoFitTextureView(Context context, AttributeSet attrs, int defStyle) {
     super(context, attrs, defStyle);
+    System.out.println("AutoFitTextureView FUNGSI : AutoFitTextureView()");
   }
 
   /**
@@ -46,6 +49,7 @@ public class AutoFitTextureView extends TextureView {
    * @param height Relative vertical size
    */
   public void setAspectRatio(int width, int height) {
+    System.out.println("AutoFitTextureView FUNGSI : setAspectRatio()");
     if (width < 0 || height < 0) {
       throw new IllegalArgumentException("Size cannot be negative.");
     }
@@ -56,6 +60,7 @@ public class AutoFitTextureView extends TextureView {
 
   @Override
   protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+    System.out.println("AutoFitTextureView FUNGSI : onMeasure()");
     super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     int width = MeasureSpec.getSize(widthMeasureSpec);
     int height = MeasureSpec.getSize(heightMeasureSpec);

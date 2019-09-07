@@ -88,6 +88,7 @@ public class Camera2BasicFragment extends Fragment
   private TextView textView;
   private ImageClassifier classifier;
   private Parameters parameter ;
+  private int timeDelay;
 
   /** Max preview width that is guaranteed by Camera2 API */
   private static final int MAX_PREVIEW_WIDTH = 1920;
@@ -143,6 +144,7 @@ public class Camera2BasicFragment extends Fragment
         @Override
         public void onOpened(@NonNull CameraDevice currentCameraDevice) {
           // This method is called when the camera is opened.  We start camera preview here.
+          System.out.println("Camera2BasicFragmen FUNGSI : onOpened()");
           cameraOpenCloseLock.release();
           cameraDevice = currentCameraDevice;
           createCameraPreviewSession();
@@ -151,6 +153,7 @@ public class Camera2BasicFragment extends Fragment
 
         @Override
         public void onDisconnected(@NonNull CameraDevice currentCameraDevice) {
+          System.out.println("Camera2BasicFragmen FUNGSI : onDisconnected()");
           cameraOpenCloseLock.release();
           currentCameraDevice.close();
           cameraDevice = null;
@@ -158,6 +161,7 @@ public class Camera2BasicFragment extends Fragment
 
         @Override
         public void onError(@NonNull CameraDevice currentCameraDevice, int error) {
+          System.out.println("Camera2BasicFragmen FUNGSI : onError()");
           cameraOpenCloseLock.release();
           currentCameraDevice.close();
           cameraDevice = null;
@@ -196,13 +200,13 @@ public class Camera2BasicFragment extends Fragment
         public void onCaptureProgressed(
             @NonNull CameraCaptureSession session,
             @NonNull CaptureRequest request,
-            @NonNull CaptureResult partialResult) {}
+            @NonNull CaptureResult partialResult) {System.out.println("Camera2BasicFragmen FUNGSI : onCaptureProgressed()");}
 
         @Override
         public void onCaptureCompleted(
             @NonNull CameraCaptureSession session,
             @NonNull CaptureRequest request,
-            @NonNull TotalCaptureResult result) {}
+            @NonNull TotalCaptureResult result) {System.out.println("Camera2BasicFragmen FUNGSI : onCaptureCompleted()");}
       };
 
   /**
@@ -211,6 +215,7 @@ public class Camera2BasicFragment extends Fragment
    * @param text The message to show
    */
   private void showToast(final String text) {
+    System.out.println("Camera2BasicFragmen FUNGSI : showToast()");
     final Activity activity = getActivity();
     if (activity != null) {
       activity.runOnUiThread(
@@ -251,6 +256,7 @@ public class Camera2BasicFragment extends Fragment
       int maxHeight,
       Size aspectRatio) {
 
+    System.out.println("Camera2BasicFragmen FUNGSI : chooseOptimalSize()");
     // Collect the supported resolutions that are at least as big as the preview Surface
     List<Size> bigEnough = new ArrayList<>();
     // Collect the supported resolutions that are smaller than the preview Surface
@@ -289,12 +295,14 @@ public class Camera2BasicFragment extends Fragment
   @Override
   public View onCreateView(
       LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    System.out.println("Camera2BasicFragmen FUNGSI : onCreateView()");
     return inflater.inflate(R.layout.fragment_camera2_basic, container, false);
   }
 
   /** Connect the buttons to their event handler. */
   @Override
   public void onViewCreated(final View view, Bundle savedInstanceState) {
+    System.out.println("Camera2BasicFragmen FUNGSI : onViewCreated()");
     textureView = (AutoFitTextureView) view.findViewById(R.id.texture);
     textView = (TextView) view.findViewById(R.id.text);
   }
@@ -303,6 +311,7 @@ public class Camera2BasicFragment extends Fragment
   @Override
   public void onActivityCreated(Bundle savedInstanceState) {
     super.onActivityCreated(savedInstanceState);
+    System.out.println("Camera2BasicFragmen FUNGSI : onActivityCreated()");
     try {
       classifier = new ImageClassifier(getActivity());
     } catch (IOException e) {
@@ -314,6 +323,7 @@ public class Camera2BasicFragment extends Fragment
   @Override
   public void onResume() {
     super.onResume();
+    System.out.println("Camera2BasicFragmen FUNGSI : onResume()");
     startBackgroundThread();
 
     // When the screen is turned off and turned back on, the SurfaceTexture is already
@@ -329,6 +339,7 @@ public class Camera2BasicFragment extends Fragment
 
   @Override
   public void onPause() {
+    System.out.println("Camera2BasicFragmen FUNGSI : onPause()");
     closeCamera();
     stopBackgroundThread();
     super.onPause();
@@ -336,6 +347,7 @@ public class Camera2BasicFragment extends Fragment
 
   @Override
   public void onDestroy() {
+    System.out.println("Camera2BasicFragmen FUNGSI : onDestroy()");
     classifier.close();
     super.onDestroy();
   }
@@ -347,6 +359,7 @@ public class Camera2BasicFragment extends Fragment
    * @param height The height of available size for camera preview
    */
   private void setUpCameraOutputs(int width, int height) {
+    System.out.println("Camera2BasicFragmen FUNGSI : setUpCameraOutputs()");
     Activity activity = getActivity();
     CameraManager manager = (CameraManager) activity.getSystemService(Context.CAMERA_SERVICE);
     try {
@@ -450,6 +463,7 @@ public class Camera2BasicFragment extends Fragment
   }
 
   private String[] getRequiredPermissions() {
+    System.out.println("Camera2BasicFragmen FUNGSI : getRequiredPermissions()");
     Activity activity = getActivity();
     try {
       PackageInfo info =
@@ -469,6 +483,7 @@ public class Camera2BasicFragment extends Fragment
 
   /** Opens the camera specified by {@link Camera2BasicFragment#cameraId}. */
   private void openCamera(int width, int height) {
+    System.out.println("Camera2BasicFragmen FUNGSI : openCamera()");
     if (!checkedPermissions && !allPermissionsGranted()) {
       FragmentCompat.requestPermissions(this, getRequiredPermissions(), PERMISSIONS_REQUEST_CODE);
       return;
@@ -484,6 +499,15 @@ public class Camera2BasicFragment extends Fragment
         throw new RuntimeException("Time out waiting to lock camera opening.");
       }
       manager.openCamera(cameraId, stateCallback, backgroundHandler);
+
+      //Menyalakan flash
+      if(CameraActivity.flashAvailable) {
+        manager.setTorchMode(cameraId, true);
+      }else {
+        //System.out.println("flashlight not functioning");
+        Toast.makeText(getContext(),"Flashlight not available",Toast.LENGTH_LONG).show();
+      }
+
     } catch (CameraAccessException e) {
       e.printStackTrace();
     } catch (InterruptedException e) {
@@ -492,6 +516,7 @@ public class Camera2BasicFragment extends Fragment
   }
 
   private boolean allPermissionsGranted() {
+    System.out.println("Camera2BasicFragmen FUNGSI : allPermissionsGranted()");
     for (String permission : getRequiredPermissions()) {
       if (ContextCompat.checkSelfPermission(getActivity(), permission)
           != PackageManager.PERMISSION_GRANTED) {
@@ -505,10 +530,12 @@ public class Camera2BasicFragment extends Fragment
   public void onRequestPermissionsResult(
       int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
     super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    System.out.println("Camera2BasicFragmen FUNGSI : onRequestPermissionsResult()");
   }
 
   /** Closes the current {@link CameraDevice}. */
   private void closeCamera() {
+    System.out.println("Camera2BasicFragmen FUNGSI : closeCamera()");
     try {
       cameraOpenCloseLock.acquire();
       if (null != captureSession) {
@@ -532,6 +559,7 @@ public class Camera2BasicFragment extends Fragment
 
   /** Starts a background thread and its {@link Handler}. */
   private void startBackgroundThread() {
+    System.out.println("Camera2BasicFragmen FUNGSI : startBackgroundThread()");
     backgroundThread = new HandlerThread(HANDLE_THREAD_NAME);
     backgroundThread.start();
     backgroundHandler = new Handler(backgroundThread.getLooper());
@@ -543,6 +571,7 @@ public class Camera2BasicFragment extends Fragment
 
   /** Stops the background thread and its {@link Handler}. */
   private void stopBackgroundThread() {
+    System.out.println("Camera2BasicFragmen FUNGSI : stopBackgroundThread()");
     backgroundThread.quitSafely();
     try {
       backgroundThread.join();
@@ -561,6 +590,7 @@ public class Camera2BasicFragment extends Fragment
       new Runnable() {
         @Override
         public void run() {
+          System.out.println("Camera2BasicFragmen FUNGSI : run()");
           synchronized (lock) {
             if (runClassifier) {
               classifyFrame();
@@ -571,12 +601,13 @@ public class Camera2BasicFragment extends Fragment
               }
             }
           }
-          backgroundHandler.postDelayed(periodicClassify, 5000);
+          backgroundHandler.postDelayed(periodicClassify, timeDelay);
         }
       };
 
   /** Creates a new {@link CameraCaptureSession} for camera preview. */
   private void createCameraPreviewSession() {
+    System.out.println("Camera2BasicFragmen FUNGSI : createCameraPreviewSession()");
     try {
       SurfaceTexture texture = textureView.getSurfaceTexture();
       assert texture != null;
@@ -598,6 +629,7 @@ public class Camera2BasicFragment extends Fragment
 
             @Override
             public void onConfigured(@NonNull CameraCaptureSession cameraCaptureSession) {
+              System.out.println("Camera2BasicFragmen FUNGSI : onConfigured()");
               // The camera is already closed
               if (null == cameraDevice) {
                 return;
@@ -622,6 +654,7 @@ public class Camera2BasicFragment extends Fragment
 
             @Override
             public void onConfigureFailed(@NonNull CameraCaptureSession cameraCaptureSession) {
+              System.out.println("Camera2BasicFragmen FUNGSI : onConfigureFailed()");
               showToast("Failed");
             }
           },
@@ -640,6 +673,7 @@ public class Camera2BasicFragment extends Fragment
    * @param viewHeight The height of `textureView`
    */
   private void configureTransform(int viewWidth, int viewHeight) {
+    System.out.println("Camera2BasicFragmen FUNGSI : onConfigureTransform()");
     Activity activity = getActivity();
     if (null == textureView || null == previewSize || null == activity) {
       return;
@@ -667,6 +701,7 @@ public class Camera2BasicFragment extends Fragment
 
   /** Classifies a frame from the preview stream. */
   private void classifyFrame() {
+    System.out.println("Camera2BasicFragmen FUNGSI : classifyFrame()");
     if (classifier == null || getActivity() == null || cameraDevice == null) {
       showToast("Uninitialized Classifier or invalid context.");
       return;
@@ -680,9 +715,26 @@ public class Camera2BasicFragment extends Fragment
     showToast(textToShow);
     if(counter) {
       if(isDetected) {
-        CameraActivity.tts.speak(textToSpeak, TextToSpeech.QUEUE_FLUSH, null);
+        //CameraActivity.tts.speak(textToSpeak, TextToSpeech.QUEUE_FLUSH, null);
+        if(textToSpeak.contains("1 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound1, 1, 1, 1, 0, 1);
+        }else if(textToSpeak.contains("2 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound2, 1, 1, 1, 0, 1);
+        }else if(textToSpeak.contains("5 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound3, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("10 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound4, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("20 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound5, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("50 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound6, 1, 1, 0, 0, 1);
+        }else if(textToSpeak.contains("100 000")) {
+          CameraActivity.soundPool.play(CameraActivity.sound7, 1, 1, 0, 0, 1);
+        }
+        timeDelay = 5000;
       }else {
         CameraActivity.tts.speak("Not detected", TextToSpeech.QUEUE_FLUSH, null);
+        timeDelay = 2000;
       }
     }
   }
@@ -692,6 +744,7 @@ public class Camera2BasicFragment extends Fragment
 
     @Override
     public int compare(Size lhs, Size rhs) {
+      System.out.println("Camera2BasicFragmen FUNGSI : compare()");
       // We cast here to ensure the multiplications won't overflow
       return Long.signum(
           (long) lhs.getWidth() * lhs.getHeight() - (long) rhs.getWidth() * rhs.getHeight());
@@ -705,6 +758,7 @@ public class Camera2BasicFragment extends Fragment
     private static final String ARG_MESSAGE = "message";
 
     public static ErrorDialog newInstance(String message) {
+      System.out.println("Camera2BasicFragmen FUNGSI : newInstance()");
       ErrorDialog dialog = new ErrorDialog();
       Bundle args = new Bundle();
       args.putString(ARG_MESSAGE, message);
@@ -714,6 +768,7 @@ public class Camera2BasicFragment extends Fragment
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
+      System.out.println("Camera2BasicFragmen FUNGSI : onCreateDialog()");
       final Activity activity = getActivity();
       return new AlertDialog.Builder(activity)
           .setMessage(getArguments().getString(ARG_MESSAGE))

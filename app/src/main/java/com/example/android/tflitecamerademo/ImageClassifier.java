@@ -90,6 +90,7 @@ public class ImageClassifier {
           new Comparator<Map.Entry<String, Float>>() {
             @Override
             public int compare(Map.Entry<String, Float> o1, Map.Entry<String, Float> o2) {
+              System.out.println("ImageClassifier FUNGSI : compare()");
               return (o1.getValue()).compareTo(o2.getValue());
             }
           });
@@ -99,6 +100,7 @@ public class ImageClassifier {
 
   /** Initializes an {@code ImageClassifier}. */
   ImageClassifier(Activity activity) throws IOException {
+    System.out.println("ImageClassifier FUNGSI : ImageClassifer()");
     tflite = new Interpreter(loadModelFile(activity));
     labelList = loadLabelList(activity);
     imgData =
@@ -112,6 +114,7 @@ public class ImageClassifier {
 
   /** Classifies a frame from the preview stream. */
   String classifyFrame(Bitmap bitmap) {
+    System.out.println("ImageClassifier FUNGSI : classifyFrame()");
     if (tflite == null) {
       Log.e(TAG, "Image classifier has not been initialized; Skipped.");
       return "Uninitialized Classifier.";
@@ -133,6 +136,7 @@ public class ImageClassifier {
   }
 
   void applyFilter(){
+    System.out.println("ImageClassifier FUNGSI : applyFilter()");
     int num_labels =  labelList.size();
 
     // Low pass filter `labelProbArray` into the first stage of the filter.
@@ -164,6 +168,7 @@ public class ImageClassifier {
 
   /** Reads label list from Assets. */
   private List<String> loadLabelList(Activity activity) throws IOException {
+    System.out.println("ImageClassifier FUNGSI : loadLabelList()");
     List<String> labelList = new ArrayList<String>();
     BufferedReader reader =
         new BufferedReader(new InputStreamReader(activity.getAssets().open(LABEL_PATH)));
@@ -177,6 +182,7 @@ public class ImageClassifier {
 
   /** Memory-map the model file in Assets. */
   private MappedByteBuffer loadModelFile(Activity activity) throws IOException {
+    System.out.println("ImageClassifier FUNGSI : loadModelFile()");
     AssetFileDescriptor fileDescriptor = activity.getAssets().openFd(MODEL_PATH);
     FileInputStream inputStream = new FileInputStream(fileDescriptor.getFileDescriptor());
     FileChannel fileChannel = inputStream.getChannel();
@@ -187,6 +193,7 @@ public class ImageClassifier {
 
   /** Writes Image data into a {@code ByteBuffer}. */
   private void convertBitmapToByteBuffer(Bitmap bitmap) {
+    System.out.println("ImageClassifier FUNGSI : convertBitmapToByteBuffer()");
     if (imgData == null) {
       return;
     }
@@ -209,6 +216,7 @@ public class ImageClassifier {
 
   /** Prints top-K labels, to be shown in UI as the results. */
   private String printTopKLabels() {
+    System.out.println("ImageClassifier FUNGSI : printTopKLabels()");
     for (int i = 0; i < labelList.size(); ++i) {
       sortedLabels.add(
           new AbstractMap.SimpleEntry<>(labelList.get(i), labelProbArray[0][i]));
@@ -229,6 +237,7 @@ public class ImageClassifier {
   }
   
   boolean isDetected() {
+    System.out.println("ImageClassifier FUNGSI : isDetected()");
     for (int i = 0; i < labelList.size(); ++i) {
       sortedLabels.add(
               new AbstractMap.SimpleEntry<>(labelList.get(i), labelProbArray[0][i]));
@@ -251,6 +260,7 @@ public class ImageClassifier {
   }
 
   String getTextToSpeak() {
+    System.out.println("ImageClassifier FUNGSI : getTextSpeak()");
     return printTopKLabels().split("\\:")[0];
   }
 }
