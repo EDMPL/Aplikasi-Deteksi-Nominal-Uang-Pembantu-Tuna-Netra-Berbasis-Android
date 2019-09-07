@@ -9,7 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9e3e6c1-b21e-42e0-9d04-31af06d0862f" name="Default" comment="Halaman How To">
+    <list default="true" id="c9e3e6c1-b21e-42e0-9d04-31af06d0862f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +42,11 @@
               <folding>
                 <element signature="e#0#3460#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#3274#3275#0" expanded="true" />
-                <element signature="e#3310#3311#0" expanded="true" />
+                <marker date="1567832387939" expanded="true" signature="2868:3323" ph="{...}" />
+                <marker date="1567832387939" expanded="true" signature="3219:3317" ph="{...}" />
+                <marker date="1567832387939" expanded="true" signature="3273:3284" ph=" { " />
+                <marker date="1567832387939" expanded="true" signature="3303:3311" ph=" }" />
+                <marker date="1567832387939" expanded="true" signature="3356:3457" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,6 +72,17 @@
               <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1567832373544" expanded="true" signature="28074:28092" ph="{...}" />
+                <marker date="1567832373544" expanded="true" signature="28096:28151" ph="/**...*/" />
+                <marker date="1567832373544" expanded="true" signature="28222:28548" ph="{...}" />
+                <marker date="1567832373544" expanded="true" signature="28282:28544" ph="{...}" />
+                <marker date="1567832373544" expanded="true" signature="28553:28590" ph="/**...*/" />
+                <marker date="1567832373544" expanded="true" signature="28648:29657" ph="{...}" />
+                <marker date="1567832373544" expanded="true" signature="28767:29024" ph="{...}" />
+                <marker date="1567832373544" expanded="true" signature="29100:29653" ph="{...}" />
+                <marker date="1567832373544" expanded="true" signature="29449:29625" ph="{...}" />
+                <marker date="1567832373544" expanded="false" signature="29552:29573" ph=" { " />
+                <marker date="1567832373544" expanded="false" signature="29591:29609" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -77,8 +91,8 @@
       <file leaf-file-name="HowToUse.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/HowToUse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="188">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#844#845#0" expanded="true" />
@@ -2198,7 +2212,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1567832238241" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1567832419765" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2246,7 +2260,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1567832238241" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1567832419765" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2421,7 +2435,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1567832238243" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1567832419767" />
       </method>
     </configuration>
     <list size="1">
@@ -2509,7 +2523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567832126170</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Halaman How To">
+      <created>1567832247420</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567832247420</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2611,8 +2632,11 @@
           <folding>
             <element signature="e#0#3460#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
+            <marker date="1567832387939" expanded="true" signature="2868:3323" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3219:3317" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3273:3284" ph=" { " />
+            <marker date="1567832387939" expanded="true" signature="3303:3311" ph=" }" />
+            <marker date="1567832387939" expanded="true" signature="3356:3457" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2648,6 +2672,17 @@
           <caret line="391" column="36" lean-forward="true" selection-start-line="391" selection-start-column="36" selection-end-line="391" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1567832373544" expanded="true" signature="28074:28092" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28096:28151" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28222:28548" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28282:28544" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28553:28590" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28648:29657" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28767:29024" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29100:29653" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29449:29625" ph="{...}" />
+            <marker date="1567832373544" expanded="false" signature="29552:29573" ph=" { " />
+            <marker date="1567832373544" expanded="false" signature="29591:29609" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2659,8 +2694,11 @@
           <folding>
             <element signature="e#0#3460#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
+            <marker date="1567832387939" expanded="true" signature="2868:3323" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3219:3317" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3273:3284" ph=" { " />
+            <marker date="1567832387939" expanded="true" signature="3303:3311" ph=" }" />
+            <marker date="1567832387939" expanded="true" signature="3356:3457" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2696,6 +2734,17 @@
           <caret line="698" column="45" lean-forward="true" selection-start-line="698" selection-start-column="45" selection-end-line="698" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1567832373544" expanded="true" signature="28074:28092" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28096:28151" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28222:28548" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28282:28544" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28553:28590" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28648:29657" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28767:29024" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29100:29653" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29449:29625" ph="{...}" />
+            <marker date="1567832373544" expanded="false" signature="29552:29573" ph=" { " />
+            <marker date="1567832373544" expanded="false" signature="29591:29609" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2707,8 +2756,11 @@
           <folding>
             <element signature="e#0#3460#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
+            <marker date="1567832387939" expanded="true" signature="2868:3323" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3219:3317" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3273:3284" ph=" { " />
+            <marker date="1567832387939" expanded="true" signature="3303:3311" ph=" }" />
+            <marker date="1567832387939" expanded="true" signature="3356:3457" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2737,6 +2789,17 @@
           <caret line="493" column="7" lean-forward="true" selection-start-line="493" selection-start-column="7" selection-end-line="493" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1567832373544" expanded="true" signature="28074:28092" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28096:28151" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28222:28548" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28282:28544" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28553:28590" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28648:29657" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28767:29024" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29100:29653" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29449:29625" ph="{...}" />
+            <marker date="1567832373544" expanded="false" signature="29552:29573" ph=" { " />
+            <marker date="1567832373544" expanded="false" signature="29591:29609" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2748,8 +2811,11 @@
           <folding>
             <element signature="e#0#3460#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
+            <marker date="1567832387939" expanded="true" signature="2868:3323" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3219:3317" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3273:3284" ph=" { " />
+            <marker date="1567832387939" expanded="true" signature="3303:3311" ph=" }" />
+            <marker date="1567832387939" expanded="true" signature="3356:3457" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2760,6 +2826,17 @@
           <caret line="664" column="37" lean-forward="false" selection-start-line="664" selection-start-column="37" selection-end-line="664" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1567832373544" expanded="true" signature="28074:28092" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28096:28151" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28222:28548" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28282:28544" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28553:28590" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28648:29657" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28767:29024" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29100:29653" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29449:29625" ph="{...}" />
+            <marker date="1567832373544" expanded="false" signature="29552:29573" ph=" { " />
+            <marker date="1567832373544" expanded="false" signature="29591:29609" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2778,8 +2855,11 @@
           <folding>
             <element signature="e#0#3460#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
+            <marker date="1567832387939" expanded="true" signature="2868:3323" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3219:3317" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3273:3284" ph=" { " />
+            <marker date="1567832387939" expanded="true" signature="3303:3311" ph=" }" />
+            <marker date="1567832387939" expanded="true" signature="3356:3457" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2797,6 +2877,17 @@
           <caret line="485" column="6" lean-forward="false" selection-start-line="485" selection-start-column="6" selection-end-line="485" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1567832373544" expanded="true" signature="28074:28092" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28096:28151" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28222:28548" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28282:28544" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28553:28590" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28648:29657" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28767:29024" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29100:29653" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29449:29625" ph="{...}" />
+            <marker date="1567832373544" expanded="false" signature="29552:29573" ph=" { " />
+            <marker date="1567832373544" expanded="false" signature="29591:29609" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2942,6 +3033,17 @@
           <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1567832373544" expanded="true" signature="28074:28092" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28096:28151" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28222:28548" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28282:28544" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28553:28590" ph="/**...*/" />
+            <marker date="1567832373544" expanded="true" signature="28648:29657" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="28767:29024" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29100:29653" ph="{...}" />
+            <marker date="1567832373544" expanded="true" signature="29449:29625" ph="{...}" />
+            <marker date="1567832373544" expanded="false" signature="29552:29573" ph=" { " />
+            <marker date="1567832373544" expanded="false" signature="29591:29609" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2953,8 +3055,11 @@
           <folding>
             <element signature="e#0#3460#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
+            <marker date="1567832387939" expanded="true" signature="2868:3323" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3219:3317" ph="{...}" />
+            <marker date="1567832387939" expanded="true" signature="3273:3284" ph=" { " />
+            <marker date="1567832387939" expanded="true" signature="3303:3311" ph=" }" />
+            <marker date="1567832387939" expanded="true" signature="3356:3457" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2994,8 +3099,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tflitecamerademo/HowToUse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="188">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#844#845#0" expanded="true" />
