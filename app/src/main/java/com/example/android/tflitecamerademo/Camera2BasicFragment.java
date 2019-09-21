@@ -190,8 +190,6 @@ public class Camera2BasicFragment extends Fragment
   /** A {@link Semaphore} to prevent the app from exiting before closing the camera. */
   private Semaphore cameraOpenCloseLock = new Semaphore(1);
 
-  private boolean counter = true;
-
   /** A {@link CameraCaptureSession.CaptureCallback} that handles events related to capture. */
   private CameraCaptureSession.CaptureCallback captureCallback =
       new CameraCaptureSession.CaptureCallback() {
@@ -587,11 +585,6 @@ public class Camera2BasicFragment extends Fragment
           synchronized (lock) {
             if (runClassifier) {
               classifyFrame();
-              if(counter) {
-                counter = false;
-              }else {
-                counter = true;
-              }
             }
           }
           backgroundHandler.postDelayed(periodicClassify, timeDelay);
@@ -713,29 +706,26 @@ public class Camera2BasicFragment extends Fragment
     boolean isDetected = classifier.isDetected();
     bitmap.recycle();
     showToast(textToShow);
-    if(counter) {
-      if(isDetected) {
-        //CameraActivity.tts.speak(textToSpeak, TextToSpeech.QUEUE_FLUSH, null);
-        if(textToSpeak.contains("1 000")) {
-          CameraActivity.soundPool.play(CameraActivity.sound1, 1, 1, 1, 0, 1);
-        }else if(textToSpeak.contains("2 000")) {
-          CameraActivity.soundPool.play(CameraActivity.sound2, 1, 1, 1, 0, 1);
-        }else if(textToSpeak.contains("5 000")) {
-          CameraActivity.soundPool.play(CameraActivity.sound3, 1, 1, 0, 0, 1);
-        }else if(textToSpeak.contains("10 000")) {
-          CameraActivity.soundPool.play(CameraActivity.sound4, 1, 1, 0, 0, 1);
-        }else if(textToSpeak.contains("20 000")) {
-          CameraActivity.soundPool.play(CameraActivity.sound5, 1, 1, 0, 0, 1);
-        }else if(textToSpeak.contains("50 000")) {
-          CameraActivity.soundPool.play(CameraActivity.sound6, 1, 1, 0, 0, 1);
-        }else if(textToSpeak.contains("100 000")) {
-          CameraActivity.soundPool.play(CameraActivity.sound7, 1, 1, 0, 0, 1);
-        }
-        timeDelay = 5000;
-      }else {
-        CameraActivity.tts.speak("Not detected", TextToSpeech.QUEUE_FLUSH, null);
-        timeDelay = 2000;
+    if(isDetected) {
+      if(textToSpeak.contains("1 000")) {
+        CameraActivity.sound1.start();
+      }else if(textToSpeak.contains("2 000")) {
+        CameraActivity.sound2.start();
+      }else if(textToSpeak.contains("5 000")) {
+        CameraActivity.sound3.start();
+      }else if(textToSpeak.contains("10 000")) {
+        CameraActivity.sound4.start();
+      }else if(textToSpeak.contains("20 000")) {
+        CameraActivity.sound5.start();
+      }else if(textToSpeak.contains("50 000")) {
+        CameraActivity.sound6.start();
+      }else if(textToSpeak.contains("100 000")) {
+        CameraActivity.sound7.start();
       }
+      timeDelay = 4000;
+    }else {
+      CameraActivity.tts.speak("Not detected", TextToSpeech.QUEUE_FLUSH, null);
+      timeDelay = 2000;
     }
   }
 

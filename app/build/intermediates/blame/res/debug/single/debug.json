@@ -72,12 +72,12 @@
         "source": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.2.0.aar\\658d4f2634dae6d281af5ff498564b1c\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
@@ -140,24 +140,24 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_design_tint_password_toggle.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.2.0.aar\\658d4f2634dae6d281af5ff498564b1c\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_header.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.2.0.aar\\658d4f2634dae6d281af5ff498564b1c\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_header.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.2.0.aar\\658d4f2634dae6d281af5ff498564b1c\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -188,12 +188,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_fragment_camera2_basic.xml.flat",
         "source": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\src\\main\\res\\layout-land\\fragment_camera2_basic.xml"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
@@ -244,12 +244,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
@@ -300,12 +300,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
@@ -356,12 +356,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -464,12 +464,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
@@ -604,12 +604,12 @@
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
-    },
-    {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\c9a18b58ca48374cc0f7570764408ab1\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
         "merged": "D:\\TA\\Project 21 Juli\\Aplikasi-Deteksi-Nominal-Uang-Pembantu-Tuna-Netra-Berbasis-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
