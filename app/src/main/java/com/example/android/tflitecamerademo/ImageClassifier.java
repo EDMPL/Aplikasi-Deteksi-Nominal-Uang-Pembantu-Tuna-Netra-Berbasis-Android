@@ -20,7 +20,6 @@ import android.content.res.AssetFileDescriptor;
 import android.graphics.Bitmap;
 import android.os.Handler;
 import android.os.SystemClock;
-import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -44,10 +43,10 @@ public class ImageClassifier {
   /** Tag for the {@link Log}. */
   private static final String TAG = "TfLiteCameraDemo";
 
-  /** Name of the model file stored in Assets. */
-  private static final String MODEL_PATH = "model_uang_10_07.lite";
+  /** Nama file model hasil training yang disimpan dalam folder Assets. */
+  private static final String MODEL_PATH = "model_uang_05_10.lite";
 
-  /** Name of the label file stored in Assets. */
+  /** Name file teks label yang disimpan dalam folder Assets. */
   private static final String LABEL_PATH = "model_uang_10_07_labels.txt";
 
   /** Number of results to show in the UI. */
@@ -69,16 +68,18 @@ public class ImageClassifier {
   private int[] intValues = new int[DIM_IMG_SIZE_X * DIM_IMG_SIZE_Y];
 
   /** An instance of the driver class to run model inference with Tensorflow Lite. */
+  /** Object utama yang paling penting untuk melakukan klasifikasi menggunakan model tensorflow lita yang sudah di-train*/
   private Interpreter tflite;
 
   /** Labels corresponding to the output of the vision model. */
   private List<String> labelList;
 
-  /** A ByteBuffer to hold image data, to be feed into Tensorflow Lite as inputs. */
+  /** Data ByteBuffer dari citra yang akan menjadi input ketika proses klasifikasi dengan Tensorflow Lite */
   private ByteBuffer imgData = null;
 
-  /** An array to hold inference results, to be feed into Tensorflow Lite as outputs. */
+  /** Array yang berisi nilai prediksi klasifikasi yang akan menjadi output dari proses klasifikasi dengan Tensorflow Lite */
   private float[][] labelProbArray = null;
+
   /** multi-stage low pass filter **/
   private float[][] filterLabelProbArray = null;
   private static final int FILTER_STAGES = 3;
@@ -94,9 +95,6 @@ public class ImageClassifier {
               return (o1.getValue()).compareTo(o2.getValue());
             }
           });
-
-
-  private TextToSpeech tts;
 
   /** Initializes an {@code ImageClassifier}. */
   ImageClassifier(Activity activity) throws IOException {
@@ -120,13 +118,15 @@ public class ImageClassifier {
       return "Uninitialized Classifier.";
     }
     convertBitmapToByteBuffer(bitmap);
-    // Here's where the magic happens!!!
+    // tflite.run = proses klasifikasi menggunakan object interpreter yang disediakan tensorflow
+    //parameter yang dibutuhkan : ByteBuffer dari citra,
     long startTime = SystemClock.uptimeMillis();
     tflite.run(imgData, labelProbArray);
     long endTime = SystemClock.uptimeMillis();
     Log.d(TAG, "Timecost to run model inference: " + Long.toString(endTime - startTime));
 
     // smooth the results
+    //lakukan low pass filter untuk meningkatkan akurasi dari klasifikasi
     applyFilter();
 
     // print the results
@@ -191,7 +191,7 @@ public class ImageClassifier {
     return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength);
   }
 
-  /** Writes Image data into a {@code ByteBuffer}. */
+  /** Mengubah data gambar(bitmap) menjadi {@code ByteBuffer}. */
   private void convertBitmapToByteBuffer(Bitmap bitmap) {
     System.out.println("ImageClassifier FUNGSI : convertBitmapToByteBuffer()");
     if (imgData == null) {
@@ -230,9 +230,6 @@ public class ImageClassifier {
       Map.Entry<String, Float> label = sortedLabels.poll();
       textToShow = String.format("\n%s: %4.2f",label.getKey(),label.getValue()) + textToShow;
     }
-    //final String textToSpeak = textToShow.split("\\:")[0];
-    //System.out.println(textToSpeak);
-    //CameraActivity.tts.speak(textToSpeak, TextToSpeech.QUEUE_FLUSH, null);
     return textToShow;
   }
   
